@@ -1,13 +1,4 @@
 declare module 'aurelia-api' {
-  import qs from 'qs';
-  import extend from 'extend';
-  import {
-    json,
-    HttpClient
-  } from 'aurelia-fetch-client';
-  import {
-    resolver
-  } from 'aurelia-dependency-injection';
   export class Rest {
     defaults: any;
     
